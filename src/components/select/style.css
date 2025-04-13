@@ -6,6 +6,17 @@
   width: 100px;
   height: 26px;
   outline: none;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-image: url("../../assets/arrow-down.png");
+  background-repeat: no-repeat, repeat;
+  background-position: right 0.7em top 50%, 0 0;
+  background-size: 0.65em auto, 100%;
+}
+
+.Select_open {
+  background-image: url("../../assets/arrow-up.png");
 }
 
 .Select_theme_small {
@@ -22,4 +33,3 @@
   width: 157px;
   height: 26px;
 }
-
